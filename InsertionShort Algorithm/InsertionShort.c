@@ -19,7 +19,7 @@ void insertionShort(int arrranjo[], int tamArranjo){  // Algoritmo de ordenaçã
 int main(){
     int arranjo[] = {1,2,3,4,1,6,0, -1, 100, 7}; // Arranjo exemplo
 
-    int tamArranjo = sizeof(arranjo) / sizeof(arranjo[0]);  // Nassa expressão eu pego o tamanho em bytes do arranjo e divido ele pelo tamanho do tipo do primeiro intem do arranjo, assim achando a quantidade de intens do arranjo.
+    int tamArranjo = sizeof(arranjo) / sizeof(arranjo[0]);  // Nessa expressão pegasse o tamanho em bytes do arranjo o divide pelo tamanho do tipo do primeiro item do arranjo, assim achando a quantidade de intens do arranjo.
 
     insertionShort(arranjo, tamArranjo);  // Chamando a função e passando os valores 
 
